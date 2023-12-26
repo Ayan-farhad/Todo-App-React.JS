@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c4cbda;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5cd2f3;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,101 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.li{
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+}
+li{
+   list-style-type: none;
+   transition: transform 0.5s;
+}
+.changeDiv{
+  background-color: #3a7484;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.place{
+  width: 18rem;
+  height: 1.7rem;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+.placeAdd{
+  background-color: greenyellow;
+  color: white;
+  font-size: 16px;
+  width: 5rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+.placeDelete{
+  background-color: rgb(229, 45, 45);
+  color: white;
+  font-size: 16px;
+  width: 5rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 10px;
+}
+.placeUp{
+  background-color: rgb(210, 210, 23);
+  color: black;
+  font-size: 16px;
+  width: 5rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.deltBtn{
+  background-color: rgb(229, 45, 45);
+  color: white;
+  font-size: 16px;
+  width: 5rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 10px;
+}
+.editBtn{
+  background-color: rgb(112, 112, 223);
+  color: white;
+  font-size: 16px;
+  width: 5rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* Button par hover */
+
+.placeAdd:hover{
+  cursor: pointer;
+  background-color: rgb(192, 233, 130) ;
+}
+
+.placeDelete:hover{
+  cursor: pointer;
+  background-color: rgb(220, 92, 92) ;
+}
+
+.deltBtn:hover{
+  cursor: pointer;
+  background-color: rgb(220, 92, 92) ;
+}
+
+.editBtn:hover{
+  cursor: pointer;
+  background-color: rgb(150, 150, 217) ;
 }
