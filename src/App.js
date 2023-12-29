@@ -75,10 +75,10 @@ function App() {
 
             <ul>
               {addValue.map(function deletA(item, index) {
-                return <li className={editMode && currentIndex === index ? 'li' : ''}>{item}
+                return <li className={editMode && currentIndex === index ? 'li' : ''}><span className="item">{item}</span>
+                <div className="buttons">
                   <button className='deltBtn' onClick={() => deleteItem(index)} >Delete</button>
-                  <button className='editBtn' onClick={() => editItem(index)} > Edit</button>
-
+                  <button className='editBtn' onClick={() => editItem(index)} > Edit</button></div>
                 </li>
               })}
             </ul>

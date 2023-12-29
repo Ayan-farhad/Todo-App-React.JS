@@ -42,10 +42,16 @@
   border: none;
   border-radius: 15px;
 }
-li{
-   list-style-type: none;
-   transition: transform 0.5s;
+
+.item {
+  float: left; 
 }
+
+.buttons {
+  float: right; 
+}
+
+
 .changeDiv{
   background-color: #3a7484;
   padding: 10px;
@@ -97,7 +103,7 @@ li{
   color: white;
   font-size: 16px;
   width: 5rem;
-  height: 1.8rem;
+  height: 1.5rem;
   border: none;
   border-radius: 10px;
 }
@@ -106,7 +112,7 @@ li{
   color: white;
   font-size: 16px;
   width: 5rem;
-  height: 1.8rem;
+  height: 1.5rem;
   border: none;
   border-radius: 10px;
   margin: 5px;
